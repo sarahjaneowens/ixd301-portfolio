@@ -1,0 +1,55 @@
+/*============================================================
+	Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+	
+	
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+     
+p, h1, h2, h3, a
+{
+        width: 95%;}
+    
+    #aboutsarah { font-size:0.8em;}
+    
+    .web-design {margin-right: 12em;}
+
+
+
+/*============================================================
+	Mobile (Portrait)
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+	/* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+
+
+    #aboutsarah {
+        margin: 0 auto 80px;
+    }
+    
+
+    
+
+    
+
+    

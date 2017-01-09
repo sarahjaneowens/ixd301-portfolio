@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description">
+        
+		
+        <title>Sarah Jane Owens | Portfolio Website</title>
+		
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="image/monogramfavicon.png">
+		
+		<!-- CSS
+		================================================== -->
+
+		<!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Media Queries -->
+        <link rel="stylesheet" href="css/media-queries.css">
+        
+
+		<!--
+		Google Fonts
+		=========================== -->                    
+		
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+        <!-- Varela Round / Title Font -->
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        
+        
+        
+        <!--
+		Map
+		=========================== -->  
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-S1qmxZabuSSmVgWpEFhdrfOWBNj-7Ig"></script>
+      
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 15,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(54.603816, -5.929336), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#e5c163"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#c4c4c4"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#e5c163"}]},{"featureType":"administrative.land_parcel","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21},{"visibility":"on"}]},{"featureType":"poi.business","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"poi.park","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#3fc380"},{"lightness":"0"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"color":"#e5c163"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#3b4440"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#999999"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(54.603816, -5.929336),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+	
+    </head>
+	
+    <body id="body">
+	  
+				<!-- nav -->
+        
+                 <section id="home">
+                     
+        <header class="header-banner-top">
+            
+              <a href="./index.html"><img class="monogram" src="image/monogramwhite.svg" width="40" height="40"></a>
+
+  <div class="main-navigation">
+    <input type="checkbox" name="mobile-menu-toggle" id="mobile-menu-toggle" class="mobile-menu-box" />
+    <nav class="horizontal-nav primary-wrapper" role='navigation'>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Me</a></li>
+        <li class="folder">
+          <input type="checkbox" name="folder-toggle-1" id="folder-toggle-1" class="folder-toggle-box hidden"/>
+            <label for="folder-toggle-1" class="folder-toggle-label"><a href="#work">Work</a></label>
+          <ul>
+             <li><a href="./casestudy1.html">Micro Publication</a></li> 
+                <li><a href="./casestudy3.html">Narrative Webpage</a></li>
+              <li><a href="./casestudy3.html">Elements Website</a></li>
+          </ul>
+        </li>
+          <li><a href="http://sarahjaneowens.tumblr.com/">Blog</a></li>
+        <li><a href="#getintouch">Get In Touch</a></li>
+      </ul>
+    </nav>
+    <label for="mobile-menu-toggle" class="mobile-menu-label hidden"></label>
+    </div>  
+</header>
+        </section>
+        </header>
+
+   <!--
+        Header
+        ==================================== -->
+
+		<div id="headerwrap">
+            <div class="bg"></div>
+	    <div class="hometext">
+					<h4 class="animated fadeInDown">HELLO PEOPLE, MY NAME IS</h4>
+					<h1 class="animated fadeInDown">SARAH JANE <span class="color">OWENS</span></h1>
+					<h4 class="animated fadeInDown">WEB & GRAPHIC DESIGNER</h4>
+			</div>
+	    </div> 
+
+
+
+
+        <section id="work">					
+						
+						<div class="title text-center">
+                            <div class="title text-center">
+							<h2>My <span class="color">Work</span></h2>
+							<div class="border"></div>
+						</div>
+					
+                    
+                            
+<figure class="snip1091 green"><img src="./image/casestudy1.svg" alt="elements"/>
+    
+  <figcaption>
+    <h2>Elements website</h2>
+  </figcaption><a href="https://sarahjaneowens.github.io/ixd301-elements-website/index.html"></a>
+</figure>
+                         
+                         
+<figure class="snip1091 green"><img src="./image/birdproject.svg" alt="narrative"/>
+  <figcaption>
+    <h2>Narrative Webpage</h2>
+  </figcaption><a href="https://sarahjaneowens.github.io/ixd302-takahe-bird-project/index.html"></a>
+</figure>
+                         
+<figure class="snip1091 green"><img src="./image/casestudy3.svg" alt="micro" alt="micro"/>
+  <figcaption>
+    <h2>Micro Publication</h2>
+  </figcaption><a href="./micro.html"></a>
+</figure>
+                            
+                            
+		<!--Contact Me
+		=========================================== -->		
+		<section id="getintouch">
+			<div class="container">
+					
+					<!-- section title -->
+						<h2>Get In <span class="color">Touch</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+					
+            
+				
+						
+						<h3>LET'S WORK TOGETHER!</h3>
+        
+        <p class="contact-p"> I am on a mission to search and secure a placement opportunity to help me expand my skill set. Any other questions you may have please don't hesitate to contact me via email or if you would like to view more of my work follow any of the links to my social media accounts below.</p>
+
+                        
+								<img src="image/home-icon.svg" class="home-icon">
+                        <p class="address">Belfast, Co.Antrim, Northern Ireland</p>
+							
+				<div id="map"></div>
+            
+  <button class="button button1">MESSAGE ME</button>
+
+                            </section>
+		
+		<!-- end Contact Area
+		========================================== -->
+		
+		<footer id="footer">
+			<div class="container">
+					
+						<!-- Footer Social Links --> 
+							<ul class="social"> 
+<li><a href="mailto:sarahjaneowens1@gmail.com"><img src="image/social-icons/email.svg" alt="Send me an email" /></a></li>   
+<li><a href="http://sarahjaneowens.tumblr.com/"><img src="image/social-icons/tumblr.svg" alt="Follow me on Tumblr" /></a></li>
+<li><a href="https://github.com/sarahjaneowens"><img src="image/social-icons/github.svg" alt="Follow me on GitHub" /></a></li>
+<li><a href="https://twitter.com/sarahjane_owens"><img src="image/social-icons/twitter.svg" alt="Follow me on Twitter" /></a></li>
+<li><a href="https://www.flickr.com/sarahjaneowensx/"><img src="image/social-icons/flickr.svg" alt="Follow me on Flickr" /></a></li>
+            
+            </ul>
+						
+							<p class="footer-p">Designed by Sarah Jane Owens Copyright &copy; 2017. All Rights Reserved.</p>
+						</div>
+                </div>
+			</div> <!-- end container -->
+		</footer> <!-- end footer -->
+		
+		<!-- 
+		Essential Scripts
+		=====================================-->
+		
+		<!-- Custom js -->
+		<script src="js/custom.js"></script>
+
+
+    </body>
+</html>
