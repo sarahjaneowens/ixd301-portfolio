@@ -611,12 +611,11 @@ margin-bottom: -1.7em;}
     }
 
 #map {
-    width: 60%;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4em;
-    margin-bottom: 4em;}
+        height: 400px;
+        width: 700px;
+        left: 0;
+        right: 0;
+      }
 
 .cv {text-align: center;
 margin-top: 5em;}
