@@ -613,6 +613,9 @@ margin-bottom: -1.7em;}
 #map {
         height: 400px;
         width: 700px;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
         left: 0;
         right: 0;
       }
