@@ -28,8 +28,9 @@ body {
     color: #ddd;
 }
 
-.hometext {margin-top: 8em;
-font-family: 'Oswald', sans-serif;}
+.hometext {
+    margin-top: 8em;
+    font-family: 'Oswald', sans-serif;}
 
 #aboutsarah { 
     font-size: 1em;
