@@ -127,6 +127,7 @@ h3 {
     border-top: 1px solid #fff;
     height: 1px;
     margin: 15px auto 0;
+    margin-bottom: 6em;
     position: relative;
     width: 35%;
 }
@@ -400,6 +401,7 @@ figure.snip1091 {
   display: inline-block;
   margin: 10px 5px;
   margin:0 auto;
+  margin-bottom: 4em;
   min-width: 220px;
   max-width: 310px;
   max-height: 310px;
