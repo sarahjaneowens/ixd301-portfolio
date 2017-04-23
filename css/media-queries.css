@@ -35,7 +35,7 @@ p, h1, h2, h3, a
 	Mobile (Portrait)
 ==============================================================*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
 	/* parallax section */
     .parallax-section {
@@ -46,8 +46,6 @@ p, h1, h2, h3, a
     #aboutsarah {
         margin: 0 auto 80px;
     }
-    
-
     
 
     
