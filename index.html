@@ -86,9 +86,9 @@
 		<div id="headerwrap">
             <div class="bg"></div>
 	    <div class="hometext">
-					<h4 class="animated fadeInDown">HELLO PEOPLE, MY NAME IS</h4>
-					<h1 class="animated fadeInDown">SARAH JANE <span class="color">OWENS</span></h1>
-					<h4 class="animated fadeInDown">WEB & GRAPHIC DESIGNER</h4>
+					<h4 class="wow fadeInDown">HELLO PEOPLE, MY NAME IS</h4>
+					<h1 class="wow fadeInDown">SARAH JANE <span id="color">OWENS</span></h1>
+					<h4 class="wow fadeInDown">WEB & GRAPHIC DESIGNER</h4>
 			</div>
 	    </div> 
 
@@ -99,7 +99,7 @@
 						
 						<div class="title text-center">
                             <div class="title text-center">
-							<h2>My <span class="color">Work</span></h2>
+							<h2 class="wow fadeInDown" data-wow-delay="0.5s">My <span id="color">Work</span></h2>
 							<div class="border"></div>
 						</div>
 					
@@ -108,20 +108,20 @@
 <figure class="snip1091 green"><img src="./image/casestudy1.svg" alt="elements"/>
     
   <figcaption>
-    <h2>Elements website</h2>
+    <h2 class="wow fadeIn" data-wow-delay="0.5s">Elements website</h2>
   </figcaption><a href="https://sarahjaneowens.github.io/ixd301-elements-website/index.html"></a>
 </figure>
                          
                          
 <figure class="snip1091 green"><img src="./image/birdproject.svg" alt="narrative"/>
   <figcaption>
-    <h2>Narrative Webpage</h2>
+    <h2 class="wow fadeIn" data-wow-delay="0.5s">Narrative Webpage</h2>
   </figcaption><a href="https://sarahjaneowens.github.io/ixd302-takahe-bird-project/index.html"></a>
 </figure>
                          
 <figure class="snip1091 green"><img src="./image/casestudy3_1.svg" alt="micro" alt="micro"/>
   <figcaption>
-    <h2>Heroes & Villains</h2>
+    <h2 class="wow fadeIn" data-wow-delay="0.5s">Heroes & Villains</h2>
   </figcaption><a href="https://sarahjaneowens.github.io/ixd302-heroes-and-villains/heroes_villains.html"></a>
 </figure>
                             
@@ -132,7 +132,7 @@
 			<div class="container">
 					
 					<!-- section title -->
-						<h2>Get In <span class="color">Touch</span></h2>
+						<h2 class="wow fadeInDown" data-wow-delay="0.5s">Get In <span id="color">Touch</span></h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
@@ -140,13 +140,13 @@
             
 				
 						
-						<h3>LET'S WORK TOGETHER!</h3>
+						<h3 class="wow fadeInDown" data-wow-delay="0.5s">LET'S WORK TOGETHER!</h3>
         
-        <p class="contact-p"> I am on a mission to search and secure a placement opportunity to help me expand my skill set. Any other questions you may have please don't hesitate to contact me via email or if you would like to view more of my work follow any of the links to my social media accounts below.</p>
+        <p class="wow fadeIn" data-wow-delay="0.5s" id="contact-p"> I am on a mission to search and secure a placement opportunity to help me expand my skill set. Any other questions you may have please don't hesitate to contact me via email or if you would like to view more of my work follow any of the links to my social media accounts below.</p>
 
                         
-								<img src="image/home-icon.svg" class="home-icon">
-                        <p class="address">Belfast, Co.Antrim, Northern Ireland</p>
+								<img src="image/home-icon.svg" class="home-icon" class="wow fadeInDown" data-wow-delay="0.5s">
+                        <p class="wow fadeIn" data-wow-delay="0.5s" id="address">Belfast, Co.Antrim, Northern Ireland</p>
 						
             
             
@@ -361,8 +361,12 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSA-HdmLH6rO2LDX-ujFsfhnLSSV-mvlc&callback=initMap"
     async defer></script>
-            
-  <button class="button button1">MESSAGE ME</button><a href="mailto:email@address.com"></a>
+                    
+                   
+  <div class="message">
+<a href="mailto:sj_owens@hotmail.co.uk">
+<button class="button button1">MESSAGE ME</button></a>
+            </div>
 
                             </section>
 		
@@ -374,7 +378,7 @@
 					
 						<!-- Footer Social Links --> 
 							<ul class="social"> 
-<li><a href="mailto:sarahjaneowens1@gmail.com"><img src="image/social-icons/email.svg" alt="Send me an email" /></a></li>   
+<li><a href="mailto:sj_owens@hotmail.co.uk"><img src="image/social-icons/email.svg" alt="Send me an email" /></a></li>   
 <li><a href="http://sarahjaneowens.tumblr.com/"><img src="image/social-icons/tumblr.svg" alt="Follow me on Tumblr" /></a></li>
 <li><a href="https://github.com/sarahjaneowens"><img src="image/social-icons/github.svg" alt="Follow me on GitHub" /></a></li>
 <li><a href="https://twitter.com/sarahjane_owens"><img src="image/social-icons/twitter.svg" alt="Follow me on Twitter" /></a></li>
@@ -394,6 +398,12 @@
 		
 		<!-- Custom js -->
 		<script src="js/custom.js"></script>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+         
+<script src="js/main.js"></script>
+         
+         <script src="js/WOW.js"></script>
 
 
     </body>

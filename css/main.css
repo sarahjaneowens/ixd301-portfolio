@@ -15,7 +15,7 @@ p{
         color:darkgray;
         line-height: 1.8em;}
 
-.address {text-align: center;}
+#address {text-align: center;}
 
 
 /*=================================================================
@@ -155,7 +155,7 @@ h3 {
     color: #fff;
 }
 
-.color {
+#color {
     color: #6CB670;
 }
 
@@ -334,7 +334,7 @@ opacity: 0.7;}
     background:#363738;
     margin-bottom:5em;}
 
-.web-develop {
+#web-develop {
     width:15%;
     margin-left: 43%;
     margin-top: 3em;
@@ -349,7 +349,7 @@ opacity: 0.7;}
   -webkit-transition-property: transform;
   transition-property: transform;}
 
-.ddd {text-align: center;}
+#ddd {text-align: center;}
 
 .hover-effect-grow {
   display: inline-block;
@@ -536,7 +536,7 @@ margin-bottom: -1.7em;}
     margin-top: -2em;
 }
 
-.contact-p {
+#contact-p {
     text-align: justify;
     margin-top: 2em;}
 
@@ -621,6 +621,9 @@ margin-bottom: -1.7em;}
       }
 
 .cv {text-align: center;
+margin-top: 5em;}
+
+.message {text-align: center;
 margin-top: 5em;}
 
 .skillsetcontainer{
