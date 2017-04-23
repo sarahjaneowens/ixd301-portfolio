@@ -520,6 +520,10 @@ figure.snip1091.hover figcaption:after {
     background-image: url(../image/bg.svg);
     text-align: center;}
 
+#skills-p {
+    margin-top: -2em;
+    margin-bottom: 3em;}
+
 
 
 /*=================================================================
