@@ -79,10 +79,6 @@ body {
     width: 100%;
 }
 
-#owens {
-    color:#6CB670;
-    margin-top: 0.5em;}
-
 
 ol, ul {
     margin: 0;
@@ -190,7 +186,7 @@ h3 {
     position: fixed;
     width:100%;
     z-index: 4;
-opacity: 0.7;}
+    opacity: 0.7;}
 
 .header-banner-top .primary-wrapper {
   margin: 0 auto;
