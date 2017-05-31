@@ -522,6 +522,8 @@ figure.port.hover figcaption:after {
     margin-top: -2em;
     margin-bottom: 3em;}
 
+#icando {text-align: center;}
+
 
 
 /*=================================================================
@@ -630,17 +632,27 @@ margin-top: 5em;}
 .message {text-align: center;
 margin-top: 5em;}
 
-.skillsetcontainer{
-    width:80%;
-    display: table;
-  margin-right: auto;
-  margin-left: auto;
+
+
+
+#skillschart {
+  padding: 10px 50px;
+  text-align: center;
+  font-family:'Varela Round', sans-serif; 
 }
 
-.skillset {
-    width:100%;
-    margin-top: 3em;
-align-self: center;
+.chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #999;
+  font-size: 13px;
+  text-align: center;
 }
 
-.skillitem {width:15%;}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
