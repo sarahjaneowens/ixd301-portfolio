@@ -67,6 +67,7 @@ body {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
+    width: 100%;
 }
 
 #headerwrap h4 {
@@ -75,7 +76,12 @@ body {
     font-size: 1.2em;
     margin-top: 2em;
     margin-bottom: 2em;
+    width: 100%;
 }
+
+#owens {
+    color:#6CB670;
+    margin-top: 0.5em;}
 
 
 ol, ul {
@@ -329,6 +335,56 @@ opacity: 0.7;}
 /*=================================================================
 	About Me 
 ==================================================================*/
+
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 0.5px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
 
 #about {
     padding: 70px 0;
