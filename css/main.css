@@ -36,7 +36,7 @@ body {
     font-size: 1em;
     margin-bottom: 3em;
     margin-top: 4em;
-    text-align: justify;
+    text-align: center;
 }
 
 #headerwrap {
@@ -447,6 +447,13 @@ hidden;
 
 #work {margin-top: -5em;}
 
+#work-info {
+    margin-top: -3em;
+    margin-bottom: 3em;
+    text-align: center;
+    width: 100%;
+    font-size:17px;}
+
 figure.port {
   font-family: 'Oswald', sans-serif;
   position: relative;
@@ -572,7 +579,8 @@ figure.port.hover figcaption:after {
 
 #skills-p {
     margin-top: -2em;
-    margin-bottom: 3em;}
+    margin-bottom: 3em;
+    text-align: center;}
 
 #icando {text-align: center;}
 
@@ -583,19 +591,19 @@ figure.port.hover figcaption:after {
 ==================================================================*/
 
 
-.home-icon {width:1.2em;
-margin-right:18.8em;
-margin-bottom: -1.7em;}
+.home-icon {
+    width:1.2em;
+    margin-right:18.8em;
+    margin-bottom: -1.7em;}
 
 
 
 #getintouch {
     padding: 70px 0 0;
-    margin-top: -2em;
-}
+    margin-top: 9em;}
 
 #contact-p {
-    text-align: justify;
+    text-align: center;
     margin-top: 2em;}
 
 .button {
