@@ -47,7 +47,7 @@ body {
 	background-attachment: fixed;
 	background-position: center center;
 	min-height: 650px;
-	width: 100%;
+	
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -67,7 +67,7 @@ body {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
-    width: 100%;
+    
 }
 
 #headerwrap h4 {
@@ -76,7 +76,7 @@ body {
     font-size: 1.2em;
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 100%;
+    
 }
 
 
